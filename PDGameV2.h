@@ -1,13 +1,20 @@
 //
-// Created by da0ma on 11/10/2026.
+// Created by da0ma on 10/6/2026.
 //
 
-#ifndef PIGDICE3_0_PDGAMEV2_H
-#define PIGDICE3_0_PDGAMEV2_H
-
+#ifndef PIGDICE2_0_PDGAME_H
+#define PIGDICE2_0_PDGAME_H
+#include "Turn.h"
 
 class PDGameV2 {
+private:
+    std::string m_playerName;
+public:
+    PDGameV2();
+    std::string getPlayerName();
+    void playGame();
+    void displayRules();
 };
 
 
-#endif //PIGDICE3_0_PDGAMEV2_H
+#endif //PIGDICE2_0_PDGAME_H

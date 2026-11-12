@@ -3,3 +3,17 @@
 //
 
 #include "PDGameV2.h"
+
+
+PDGameV2::PDGameV2() {
+
+}
+std::string PDGameV2::getPlayerName() {
+    
+}
+void PDGameV2::playGame() {
+
+}
+void PDGameV2::displayRules() {
+
+}

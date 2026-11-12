@@ -4,9 +4,17 @@
 
 #ifndef PIGDICE3_0_MULTIPLAYERGAME_H
 #define PIGDICE3_0_MULTIPLAYERGAME_H
+#include "PDGameV2.h"
 
-
-class MultiPlayerGame {
+class MultiPlayer {
+private:
+    std::vector<PDGameV2> m_players;
+    bool m_gameOver;
+public:
+    MultiPlayer();
+    void mpPlayGame();
+    void checkForWinner();
+    void displayScoreBoard();
 };
 
 

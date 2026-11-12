@@ -3,3 +3,16 @@
 //
 
 #include "MultiPlayerGame.h"
+
+MultiPlayer::MultiPlayer() {
+
+}
+void MultiPlayer::mpPlayGame() {
+
+}
+void MultiPlayer::checkForWinner() {
+
+}
+void MultiPlayer::displayScoreBoard() {
+
+}
