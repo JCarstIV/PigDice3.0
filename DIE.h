@@ -1,13 +1,18 @@
 //
-// Created by da0ma on 11/10/2026.
+// Created by da0ma on 9/29/2026.
 //
+#ifndef PIGDIE2_DIE_H
+#define PIGDIE2_DIE_H
+#include <random>
 
-#ifndef PIGDICE3_0_DIE_H
-#define PIGDICE3_0_DIE_H
-
-
-class DIE {
+class Die {
+private: //learning, not needed in a class
+    int m_dieValue;
+public:
+    Die();
+    void rollDie();
+    int getDieValue() const;
 };
 
 
-#endif //PIGDICE3_0_DIE_H
+#endif //PIGDIE2_DIE_H
