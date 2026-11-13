@@ -1,18 +1,7 @@
-//
-// Created by da0ma on 11/10/2026.
-//
-
 #include "MultiPlayerGame.h"
+#include "PDGameV2.h"
+#include <iostream>
+#include <algorithm>
 
-MultiPlayer::MultiPlayer() {
 
-}
-void MultiPlayer::mpPlayGame() {
 
-}
-void MultiPlayer::checkForWinner() {
-
-}
-void MultiPlayer::displayScoreBoard() {
-
-}
