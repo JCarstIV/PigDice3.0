@@ -5,11 +5,13 @@
 #ifndef PIGDICE2_0_PDGAME_H
 #define PIGDICE2_0_PDGAME_H
 #include <iostream>
+#include <string>
+
 #include "PDGame.h"
 
 class PDGame;
 
-class PDGameV2:public PDGame {
+class PDGameV2 : public PDGame {
 private:
     std::string m_playerName;
 public:

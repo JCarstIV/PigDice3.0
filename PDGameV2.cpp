@@ -5,7 +5,7 @@
 #include "PDGameV2.h"
 
 
-PDGameV2::PDGameV2() {
+PDGameV2::PDGameV2(std::string playerName) : PDGame() {
 m_playerName = "";
 }
 std::string PDGameV2::getPlayerName() {
